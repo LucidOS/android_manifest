@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="git://github.com/" />
+
+  <default revision="VegaRacer2"
+           remote="github" />
+
+  <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
+  <project path="build" name="LucidOS/android_build" />
+
+</manifest>
