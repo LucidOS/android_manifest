@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="git://github.com/" />
+  <remote  name="origin"
+           fetch="git://github.com/LucidOS/" />
 
   <default revision="VegaRacer2"
-           remote="github"
+           remote="origin"
            sync-c="true"
            sync-j="16" />
 
-  <project path="build" name="CLUSTERDev/android_build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <project path="android" name="android_manifest" />
 
-  <project path="android" name="LucidOS/android_manifest" />
-
-  <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
-  <project path="build/" name="LucidOS/android_build" />
+  <project path="kernel/ef47s" name="android_kernel_pantech_ef47s_ICS" />
+  <project path="build/" name="android_build" />
 
 </manifest>
