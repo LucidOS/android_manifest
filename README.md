@@ -10,7 +10,7 @@ First, You should get repo
 
 To initialize your local repository using the LucidOS
 
-    repo init -u git://github.com/CLUSTERDev/platform_manifest.git -b jellybean
+    repo init -u git://github.com/CLUSTERDev/platform_manifest.git -b VegaRacer2
 
 Now You can Download 'LucidOS Source'
 
