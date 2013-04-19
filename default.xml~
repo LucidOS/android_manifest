@@ -8,7 +8,11 @@
            remote="github"
            sync-j="4" />
 
+  <project path="build" name="LucidOS/android_build">
+    <copyfile src="make.sh" dest="make.sh" />
+    <copyfile src="README.md" dest="README.md" />
+  </project>
+
   <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
-  <project path="build/" name="LucidOS/android_build" />
 
 </manifest>
