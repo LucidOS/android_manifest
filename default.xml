@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="origin"
-           fetch="git://github.com/LucidOS/" />
+  <remote  name="github"
+           fetch="git://github.com/" />
 
-  <default revision="VegaRacer2"
-           remote="origin"
-           sync-c="true"
-           sync-j="16" />
+  <default revision="refs/heads/VegaRacer2"
+           remote="github"
+           sync-j="4" />
 
-  <project path="android" name="android_manifest" />
+  <project path="build" name="LucidOS/android_build">
+    <copyfile src="make.sh" dest="make.sh" />
+    <copyfile src="README.md" dest="README.md" />
+  </project>
 
-  <project path="kernel/ef47s" name="android_kernel_pantech_ef47s_ICS" />
-  <project path="build/" name="android_build" />
+  <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
 
 </manifest>
