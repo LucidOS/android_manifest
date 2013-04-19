@@ -7,7 +7,13 @@
   <default revision="VegaRacer2"
            remote="github" />
 
+  <project path="build" name="CLUSTERDev/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="android" name="LucidOS/android_manifest" />
+
   <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
-  <project path="build" name="LucidOS/android_build" />
+  <project path="build/" name="LucidOS/android_build" />
 
 </manifest>

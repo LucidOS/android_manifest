@@ -5,7 +5,9 @@
            fetch="git://github.com/" />
 
   <default revision="VegaRacer2"
-           remote="github" />
+           remote="github"
+           sync-c="true"
+           sync-j="16" />
 
   <project path="build" name="CLUSTERDev/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
