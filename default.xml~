@@ -5,7 +5,8 @@
            fetch="git://github.com/" />
 
   <default revision="VegaRacer2"
-           remote="github" />
+           remote="github"
+           sync-j="16" />
 
   <project path="build" name="LucidOS/android_build">
     <copyfile src="README.md" dest="README.md" />
