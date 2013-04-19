@@ -4,7 +4,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="origin/VegaRacer2"
+  <default revision="VegaRacer2"
            remote="github" />
 
   <project path="build" name="LucidOS/android_build" />
