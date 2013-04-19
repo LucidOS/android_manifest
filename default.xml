@@ -7,10 +7,7 @@
   <default revision="VegaRacer2"
            remote="github" />
 
-  <project path="build" name="LucidOS/android_build">
-    <copyfile src="README.md" dest="README.md" />
-    <copyfile src="make.sh" dest="make.sh" />
-  </project>
+  <project path="build" name="LucidOS/android_build" />
 
   <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
 
