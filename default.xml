@@ -16,6 +16,6 @@
 
   <project path="boot/ef47s" name="LucidOS/android_boot_ef47s_ICS" />
 
-  <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" />
+<!--  <project path="kernel/ef47s" name="LucidOS/android_kernel_pantech_ef47s_ICS" /> -->
 
 </manifest>
