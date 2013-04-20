@@ -14,6 +14,6 @@
     <copyfile src="main/README.md" dest="README.md" />
   </project>
 
-  <project path="boot/ef12s" name="LucidOS/android_kernel_pantech_ef12s" />
+  <project path="kernel/ef12s" name="LucidOS/android_kernel_pantech_ef12s" />
 
 </manifest>
